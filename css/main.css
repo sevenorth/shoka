@@ -205,7 +205,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -221,7 +221,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -443,7 +443,7 @@ pre {
 }
 pre,
 code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei";
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   background: #eee;
@@ -1037,7 +1037,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1254,7 +1254,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #595866;
+  background: #2bffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1591,7 +1591,7 @@ pre .javascript .function {
   top: 0;
 }
 .post-body {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1889,7 +1889,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2650,6 +2650,11 @@ ul.breadcrumb li + li:last-child {
   margin-left: -30px;
   color: #ccc;
 }
+@media (max-width: 991px) {
+  .post-breadcrumb {
+    margin-left: -20px;
+  }
+}
 .post-breadcrumb i {
   margin: 0 5px;
 }
@@ -2662,46 +2667,60 @@ ul.breadcrumb li + li:last-child {
   border-bottom: none;
   border-bottom: 1px solid #87daff;
 }
-.post-body ul {
-  list-style-type: none;
-  padding-inline-start: 0px;
+.post-body ul li {
+  position: relative;
+  list-style: none;
 }
 .post-body ul li:not(.task-list-item):before {
-  content: "●";
-  color: #dd4c4f;
+  content: "";
   position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #dd4c4f;
+  border-radius: 50%;
+  top: 12px;
   left: -20px;
 }
-.post-body h1,
-.post-body h2,
-.post-body h3,
-.post-body h4,
-.post-body h5,
-.post-body h6 {
-  margin-left: -20px;
+.post-body ol>li:before {
+  counter-increment: counter;
+  content: counter(counter);
+  background: #929ca2;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  padding: 3px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  left: -26px;
+  top: 2px;
 }
-.post-body h1:before,
-.post-body h2:before,
-.post-body h3:before,
-.post-body h4:before {
+@media (max-width: 991px) {
+  .post-body h1,
+  .post-body h2,
+  .post-body h3,
+  .post-body h4,
+  .post-body h5,
+  .post-body h6 {
+    padding-left: 20px;
+  }
+}
+.post-body .anchor {
   color: #ddd;
   position: absolute;
   left: -85px;
   text-align: right;
   width: 40px;
   font-weight: normal;
+  border: none;
 }
-.post-body h1:before {
-  content: "H1";
-}
-.post-body h2:before {
-  content: "H2";
-}
-.post-body h3:before {
-  content: "H3";
-}
-.post-body h4:before {
-  content: "H4";
+@media (max-width: 991px) {
+  .post-body .anchor {
+    left: -25px;
+  }
 }
 .post-body :not(pre) > code {
   color: #dd4c4f;
@@ -2709,6 +2728,7 @@ ul.breadcrumb li + li:last-child {
   border-radius: 0.3em;
   border: 1px solid rgba(0,0,0,0.1);
   background-color: #fdfdfd;
+  font-size: 90%;
 }
 .post-body blockquote {
   background-color: #fdfdfd;
@@ -2716,14 +2736,21 @@ ul.breadcrumb li + li:last-child {
   border-left: 3px solid #dd4c4f;
   padding: 10px 15px;
 }
+@media (max-width: 991px) {
+  .post-body blockquote {
+    margin: 0 -20px;
+  }
+}
 .post-body blockquote p {
   margin: 0;
-}
-.post-body pre.code-container {
-  padding: 0;
-  overflow: inherit;
 }
 .highlight-container,
 :not(.highlight) > .table-container {
   margin: 0 -40px;
+}
+@media (max-width: 991px) {
+  .highlight-container,
+  :not(.highlight) > .table-container {
+    margin: 0 -20px;
+  }
 }
