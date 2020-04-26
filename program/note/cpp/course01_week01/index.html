@@ -19,33 +19,34 @@
     var CONFIG = {"hostname":"amehime.github.io","root":"/shoka/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#e9546b","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="琉璃的医学 &amp; 编程笔记">
-<meta property="og:type" content="website">
-<meta property="og:title" content="由夢渚夏">
-<meta property="og:url" content="http://amehime.github.io/shoka/">
+  <meta name="description" content="以下为个人学习笔记和习题整理 课程：计算机程序设计（C++）- 西安交通大学 @ 中国大学 MOOC https:&#x2F;&#x2F;www.icourse163.org&#x2F;course&#x2F;XJTU-46006  # 课堂笔记 # 计算机语言的分类   “翻译” 的两种方式：   编译型语言： 一次将编写的整个程序 &quot;翻译&quot; 成机器语言的指令，保存成文件，以后执行不再 “翻译”，只要执行翻译过的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="『计算机程序设计（C++）-西安交通大学 』第一周 程序设计与C++概述">
+<meta property="og:url" content="http://amehime.github.io/shoka/program/note/cpp/course01_week01/">
 <meta property="og:site_name" content="由夢渚夏">
-<meta property="og:description" content="琉璃的医学 &amp; 编程笔记">
+<meta property="og:description" content="以下为个人学习笔记和习题整理 课程：计算机程序设计（C++）- 西安交通大学 @ 中国大学 MOOC https:&#x2F;&#x2F;www.icourse163.org&#x2F;course&#x2F;XJTU-46006  # 课堂笔记 # 计算机语言的分类   “翻译” 的两种方式：   编译型语言： 一次将编写的整个程序 &quot;翻译&quot; 成机器语言的指令，保存成文件，以后执行不再 “翻译”，只要执行翻译过的">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-04-18T13:26:25.000Z">
+<meta property="article:modified_time" content="2020-04-26T14:45:33.595Z">
 <meta property="article:author" content="Ruri Shimotsuki">
-<meta property="article:tag" content="学习笔记">
-<meta property="article:tag" content="医学">
-<meta property="article:tag" content="程序">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://amehime.github.io/shoka/">
+<link rel="canonical" href="http://amehime.github.io/shoka/program/note/cpp/course01_week01/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>由夢渚夏</title>
+  <title>『计算机程序设计（C++）-西安交通大学 』第一周 程序设计与C++概述 | 由夢渚夏</title>
   
 
 
@@ -192,9 +193,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -225,10 +227,9 @@
               </span>
           </div>
 
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/shoka/program/note/cpp/course01_week01/" class="post-title-link" itemprop="url">『计算机程序设计（C++）-西安交通大学 』第一周 程序设计与C++概述</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          『计算机程序设计（C++）-西安交通大学 』第一周 程序设计与C++概述
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -288,7 +289,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <blockquote>
+        <blockquote>
 <p>以下为个人学习笔记和习题整理<br />
 课程：计算机程序设计（C++）- 西安交通大学 @ 中国大学 MOOC<br />
 <a href="https://www.icourse163.org/course/XJTU-46006" target="_blank" rel="noopener">https://www.icourse163.org/course/XJTU-46006</a></p>
@@ -1000,343 +1001,49 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <h3 id="解题代码-9"><a class="header-anchor" href="#解题代码-9">#</a> 解题代码</h3>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span></span><br><span class="line"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cmath></span></span></span><br><span class="line"><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></span><br><span class="line"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><br><span class="line"><span class="token punctuation">{</span></span><br><span class="line">	<span class="token keyword">double</span> x<span class="token punctuation">;</span></span><br><span class="line">	cin<span class="token operator">>></span>x<span class="token punctuation">;</span></span><br><span class="line">	cout<span class="token operator">&lt;&lt;</span>x<span class="token operator">/</span><span class="token function">sqrt</span><span class="token punctuation">(</span>x<span class="token operator">*</span>x<span class="token operator">-</span><span class="token number">3</span><span class="token operator">*</span>x<span class="token operator">+</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span></span><br><span class="line">	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token punctuation">}</span></span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
     
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://amehime.github.io/shoka/program/note/java/course01_week01/">
+  <div class="popular-posts-header">相关文章</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\shoka\program\note\java\course01_week01\" rel="bookmark">『零基础学Java语言-浙江大学-翁恺』 第1周 计算</a></div>
+    </li>
+  </ul>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/shoka/images/avatar.gif">
-      <meta itemprop="name" content="Ruri Shimotsuki">
-      <meta itemprop="description" content="琉璃的医学 & 编程笔记">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="由夢渚夏">
-    </span>
-      <header class="post-header">
-          <div class="post-breadcrumb">
-            <i class="fa fa-quran"></i>
-              <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/shoka/categories/program/" itemprop="url" rel="index" title="分类于 编程"><span itemprop="name">编程</span></a>
-              </span>
-                <i class="fa fa-angle-right"></i>
-              <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/shoka/categories/program/note/" itemprop="url" rel="index" title="分类于 自考笔记"><span itemprop="name">自考笔记</span></a>
-              </span>
-                <i class="fa fa-angle-right"></i>
-              <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/shoka/categories/program/note/04747-Java/" itemprop="url" rel="index" title="分类于 04747 Java语言程序设计"><span itemprop="name">04747 Java语言程序设计</span></a>
-              </span>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/shoka/tags/note/" rel="tag"># 笔记</a>
+              <a href="/shoka/tags/C/" rel="tag"># C++</a>
           </div>
 
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/shoka/program/note/java/course01_week01/" class="post-title-link" itemprop="url">『零基础学Java语言-浙江大学-翁恺』 第1周 计算</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-04-12 20:46:25" itemprop="dateCreated datePublished" datetime="2020-04-12T20:46:25+08:00">2020-04-12</time>
-            </span>
+        
 
 
-
-          
-            <span id="/shoka/program/note/java/course01_week01/" class="post-meta-item leancloud_visitors" data-flag-title="『零基础学Java语言-浙江大学-翁恺』 第1周 计算" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/shoka/program/note/java/course01_week01/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/shoka/program/note/java/course01_week01/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2.7k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p>以下为个人学习笔记和习题整理<br />
-课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC<br />
-<a href="https://www.icourse163.org/course/ZJU-1001541001" target="_blank" rel="noopener">https://www.icourse163.org/course/ZJU-1001541001</a></p>
-</blockquote>
-<h1 id="课堂笔记"><a class="header-anchor" href="#课堂笔记">#</a> 课堂笔记</h1>
-<h2 id="读输入-字符串输出"><a class="header-anchor" href="#读输入-字符串输出">#</a> 读输入、字符串输出</h2>
-<p><pre><code>[rectangle setX: 10 y: 10 width: 20 height: 20];</code></pre></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util</span><span class="token punctuation">.</span><span class="token class-name">Scanner</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span></span><br><span class="line"><span class="token class-name">Scanner</span> in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token comment">// 输入Scan之后，按下键盘 Alt + “/” 键，Eclipse下自动补全。</span></span><br><span class="line"></span><br><span class="line"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>in<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token comment">// 让in这个对象做读入下一行的动作，结果交给System.out这个对象去打印一行。</span></span><br><span class="line"></span><br><span class="line"><span class="token comment">// 字符串的 + 用来连接两个字符串形成更长的字符串。</span></span><br><span class="line"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello"</span> <span class="token operator">+</span> <span class="token string">" world."</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello"</span> <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello"</span> <span class="token operator">+</span> <span class="token number">2</span> <span class="token operator">+</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">+</span> <span class="token number">3</span> <span class="token operator">+</span> <span class="token string">"Hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br></pre></td></tr></table></figure>
-<p>tips：</p>
-<ul>
-<li><code>System.out.println</code>  会换行， <code>System.out.print</code>  则不会换行</li>
-<li>出现警告： <code>Resource leak: 'in' is never closed</code> ，可以在函数的最后加入</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">in<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//释放</span></span><br></pre></td></tr></table></figure>
-<h2 id="变量"><a class="header-anchor" href="#变量">#</a> 变量</h2>
-<ul>
-<li>
-<p><strong>形式</strong>：&lt;类型名称&gt; &lt; 变量名称 &gt; = &lt; 初始值 &gt;<br />
- <code>int price, amount; // 同时定义两个变量</code> <br />
- <code>int price = 0; // 定义变量并赋值</code> <br />
- <code>int price, amount = 100, age;</code></p>
-</li>
-<li>
-<p><strong>类型名称</strong>：Java 是一种<strong>强类型语言</strong>，所有变量在使用前必须定义或声明，所有变量必须具有确定的数据类型。数据类型表示在变量中可以存放什么样的数据，程序运行过程中也不能改变变量的类型。</p>
-</li>
-<li>
-<p><strong>变量名称</strong>：又称标识符，只能由字母、数字、下划线构成，数字不能出现在第一个位置。此外，Java 的保留字也不能用作标识符。</p>
-</li>
-<li>
-<p>Java 的保留字列表</p>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>abstract</th>
-<th>do</th>
-<th>implements</th>
-<th>protected</th>
-<th>throws</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>boolean</td>
-<td>double</td>
-<td>import</td>
-<td>public</td>
-<td>transient</td>
-</tr>
-<tr>
-<td>break</td>
-<td>else</td>
-<td>instanceof</td>
-<td>return</td>
-<td>true</td>
-</tr>
-<tr>
-<td>byte</td>
-<td>extends</td>
-<td>int</td>
-<td>short</td>
-<td>try</td>
-</tr>
-<tr>
-<td>case</td>
-<td>false</td>
-<td>interface</td>
-<td>static</td>
-<td>void</td>
-</tr>
-<tr>
-<td>catch</td>
-<td>final</td>
-<td>long</td>
-<td>strictfp</td>
-<td>volatile</td>
-</tr>
-<tr>
-<td>char</td>
-<td>finally</td>
-<td>native</td>
-<td>super</td>
-<td></td>
-</tr>
-<tr>
-<td>class</td>
-<td>float</td>
-<td>new</td>
-<td>switch</td>
-<td></td>
-</tr>
-<tr>
-<td>const*</td>
-<td>for</td>
-<td>null</td>
-<td>synchronized</td>
-<td></td>
-</tr>
-<tr>
-<td>continue</td>
-<td>goto*</td>
-<td>package</td>
-<td>this</td>
-<td></td>
-</tr>
-<tr>
-<td>default</td>
-<td>if</td>
-<td>private</td>
-<td>throw</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ul class="task-list">
-<li>以下哪些标识符是符合规则的？</li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-0" checked="true" disabled="true" /><label for="checkbox-0"> currency</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-1" checked="true" disabled="true" /><label for="checkbox-1"> lastName</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-2" checked="true" disabled="true" /><label for="checkbox-2"> fireplace</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-3" disabled="true" /><label for="checkbox-3"> _last_name</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-4" checked="true" disabled="true" /><label for="checkbox-4"> xingmin</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-5" disabled="true" /><label for="checkbox-5"> class</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-6" disabled="true" /><label for="checkbox-6"> goto</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-7" disabled="true" /><label for="checkbox-7"> 4ever</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-8" disabled="true" /><label for="checkbox-8"> time-machine</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-9" disabled="true" /><label for="checkbox-9"> Int</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-10" disabled="true" /><label for="checkbox-10"> $12</label></li>
-<li class="task-list-item"><input type="checkbox" id="checkbox-11" disabled="true" /><label for="checkbox-11"> 我是变量</label></li>
-</ul>
-<h2 id="常量-final"><a class="header-anchor" href="#常量-final">#</a> 常量 final</h2>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="token keyword">final</span> <span class="token keyword">int</span> AMOUNT <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token comment">// final是一个修饰符，表示这个变量的值一旦初始化，就不能再修改了。</span></span><br></pre></td></tr></table></figure>
-<h2 id="变量类型"><a class="header-anchor" href="#变量类型">#</a> 变量类型</h2>
-<h3 id="整数-int"><a class="header-anchor" href="#整数-int">#</a> 整数 int</h3>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="token keyword">int</span> price <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>如果用户输入的不是整数，则会报错  <code>java.util.InputMismatchException</code> 。</li>
-<li>程序要求读入多个数字时，可以在一行输入，中间用空格分开，也可以多行输入。</li>
-<li>每次召唤 <code>in.nextInt()</code> ，它就等待用户输入一个整数。</li>
-<li>两个整数的运算结果只能是整数。</li>
-<li>在 Java 中， <code>10</code>  和 <code>10.0</code>  是完全不同的数。</li>
-</ul>
-<h3 id="浮点数-double"><a class="header-anchor" href="#浮点数-double">#</a> 浮点数 double</h3>
-<ul>
-<li><strong>浮点数运算有误差</strong>：由于二进制的自身限制，浮点计算需要将十进制先转换为二进制，然后对二进制数进行计算，因此导致误差。</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">1.2</span><span class="token operator">-</span><span class="token number">1.1</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token comment">// 结果为 0.09999999999999987</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>整数类型不能表达有小数部分的数；整数运算速度快，占内存小；日常中整数运算多。</li>
-</ul>
-<h2 id="赋值运算"><a class="header-anchor" href="#赋值运算">#</a> 赋值运算</h2>
-<h3 id="强制类型转换"><a class="header-anchor" href="#强制类型转换">#</a> 强制类型转换</h3>
-<ul>
-<li>浮点数和整数放在一起运算时，Java 会将整数转换成浮点数，然后进行浮点数运算。</li>
-<li>强制性转换的优先级高于四则运算。</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="token keyword">double</span> a <span class="token operator">=</span> <span class="token number">1.0</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token keyword">double</span> b <span class="token operator">=</span> <span class="token number">2.0</span><span class="token punctuation">;</span></span><br><span class="line"><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>a<span class="token operator">/</span>b<span class="token punctuation">;</span> <span class="token comment">//会报错</span></span><br><span class="line"><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>a<span class="token operator">/</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//不会报错</span></span><br></pre></td></tr></table></figure>
-<h3 id="运算符优先级"><a class="header-anchor" href="#运算符优先级">#</a> 运算符优先级</h3>
-<ul>
-<li>单目运算符 <code>+</code>   <code>-</code>  优先级最高</li>
-<li>结合关系一般自左向右，单目 + - 和赋值 = 自右向左。</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">result <span class="token operator">=</span> a <span class="token operator">=</span> b <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">+</span> c<span class="token punctuation">;</span></span><br><span class="line">result <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span></span><br><span class="line">result <span class="token operator">=</span> <span class="token punctuation">(</span>result <span class="token operator">=</span> result <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">6</span> <span class="token operator">*</span> <span class="token punctuation">(</span>result <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">+</span> result<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br></pre></td></tr></table></figure>
-<h3 id="复合赋值"><a class="header-anchor" href="#复合赋值">#</a> 复合赋值</h3>
-<ul>
-<li>5 个算术运算符， <code>+ - * / %</code> ，可以和赋值运算符  <code>=</code>  结合起来，形成复合赋值运算。注意，两个运算符中间不要有空格。</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">total <span class="token operator">+=</span> <span class="token punctuation">(</span>sum<span class="token operator">+</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span></span><br><span class="line">total <span class="token operator">=</span> total <span class="token operator">+</span> <span class="token punctuation">(</span>sum<span class="token operator">+</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span></span><br><span class="line"></span><br><span class="line">total <span class="token operator">*</span> <span class="token operator">=</span> sum<span class="token operator">+</span><span class="token number">12</span><span class="token punctuation">;</span></span><br><span class="line">total <span class="token operator">=</span> total<span class="token operator">*</span><span class="token punctuation">(</span>sum<span class="token operator">+</span><span class="token number">12</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line"></span><br><span class="line">total <span class="token operator">/=</span> <span class="token number">12</span><span class="token operator">+</span><span class="token number">6</span><span class="token punctuation">;</span></span><br><span class="line">total <span class="token operator">=</span> total <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token number">12</span><span class="token operator">+</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>递增递减运算符  <code>++</code>   <code>--</code> ，给变量 + 1 或 - 1</li>
-<li>前缀后缀：</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a <span class="token operator">=</span> <span class="token number">14</span><span class="token punctuation">;</span></span><br><span class="line">t1 <span class="token operator">=</span> a<span class="token operator">++</span><span class="token punctuation">;</span> <span class="token comment">// t1先被赋值为 a 即14， a自加到 15</span></span><br><span class="line">t2 <span class="token operator">=</span> <span class="token operator">++</span>a<span class="token punctuation">;</span> <span class="token comment">// a先自加到 15，t2被赋值为 a 即 15</span></span><br></pre></td></tr></table></figure>
-<h1 id="编程题"><a class="header-anchor" href="#编程题">#</a> 编程题</h1>
-<h2 id="题目1-温度转换5分"><a class="header-anchor" href="#题目1-温度转换5分">#</a> 题目 1. 温度转换（5 分）</h2>
-<ul>
-<li>
-<p><strong>题目内容</strong><br />
-写一个将华氏温度转换成摄氏温度的程序，转换的公式是：</p>
-<p><code>°F = (9/5)*°C + 32</code></p>
-<p>其中 C 表示摄氏温度，F 表示华氏温度。</p>
-<p>程序的输入是一个整数，表示华氏温度。输出对应的摄氏温度，也是一个整数。</p>
-<p>提示，为了把计算结果的浮点数转换成整数，需要使用下面的表达式：</p>
-<p><code>(int)x;</code></p>
-<p>其中 x 是要转换的那个浮点数。</p>
-<p><em>注意：除了题目要求的输出，不能输出任何其他内容，比如输入时的提示，输出时的说明等等都不能。这道题目要求转换后的数字，程序就只能输出这个数字，除此之外任何内容都不能输出。</em></p>
-</li>
-<li>
-<p><strong>输入格式</strong><br />
-一个整数。</p>
-</li>
-<li>
-<p><strong>输出格式</strong><br />
-一个整数。</p>
-</li>
-<li>
-<p><strong>输入样例</strong><br />
- 100</p>
-</li>
-<li>
-<p><strong>输出样例</strong><br />
- 37</p>
-</li>
-</ul>
-<h3 id="解题代码"><a class="header-anchor" href="#解题代码">#</a> 解题代码</h3>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util</span><span class="token punctuation">.</span><span class="token class-name">Scanner</span><span class="token punctuation">;</span></span><br><span class="line"></span><br><span class="line"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span></span><br><span class="line"></span><br><span class="line">	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span></span><br><span class="line">		<span class="token class-name">Scanner</span> in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line">		</span><br><span class="line">		<span class="token comment">// 获得输入的整数</span></span><br><span class="line">		<span class="token keyword">int</span> fahrenheit <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line">		<span class="token comment">// 计算摄氏度</span></span><br><span class="line">		<span class="token keyword">double</span> centigrade <span class="token operator">=</span> <span class="token punctuation">(</span>fahrenheit <span class="token operator">-</span> <span class="token number">32</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token number">9</span> <span class="token operator">/</span> <span class="token number">5.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line">		<span class="token comment">// 将浮点数转换为整数输出</span></span><br><span class="line">		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>centigrade<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="line">	<span class="token punctuation">}</span></span><br><span class="line"></span><br><span class="line"><span class="token punctuation">}</span></span><br></pre></td></tr></table></figure>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/shoka/program/note/java/course01_week01/" rel="prev" title="『零基础学Java语言-浙江大学-翁恺』 第1周 计算">
+      <i class="fa fa-chevron-left"></i> 『零基础学Java语言-浙江大学-翁恺』 第1周 计算
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
   
 
 
-  
-
-
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -1383,6 +1090,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#课堂笔记"><span class="nav-number">1.</span> <span class="nav-text"> 课堂笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#计算机语言的分类"><span class="nav-number">1.1.</span> <span class="nav-text"> 计算机语言的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#c程序的结构"><span class="nav-number">1.2.</span> <span class="nav-text"> C++ 程序的结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实例"><span class="nav-number">1.3.</span> <span class="nav-text"> 实例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#输入输出字符串"><span class="nav-number">1.3.1.</span> <span class="nav-text"> 输入输出字符串</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量声明和四则运算"><span class="nav-number">1.3.2.</span> <span class="nav-text"> 变量声明和四则运算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数学函数和while循环"><span class="nav-number">1.3.3.</span> <span class="nav-text"> 数学函数和 while 循环</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#c程序的基本要素"><span class="nav-number">1.4.</span> <span class="nav-text"> C++ 程序的基本要素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#标识符"><span class="nav-number">1.4.1.</span> <span class="nav-text"> 标识符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量和常量"><span class="nav-number">1.4.2.</span> <span class="nav-text"> 变量和常量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运算符和表达式"><span class="nav-number">1.4.3.</span> <span class="nav-text"> 运算符和表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#语句"><span class="nav-number">1.4.4.</span> <span class="nav-text"> 语句</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#输入和输出"><span class="nav-number">1.4.5.</span> <span class="nav-text"> 输入和输出</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数"><span class="nav-number">1.4.6.</span> <span class="nav-text"> 函数</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#课堂讨论"><span class="nav-number">2.</span> <span class="nav-text"> 课堂讨论</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#随堂测验"><span class="nav-number">3.</span> <span class="nav-text"> 随堂测验</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#单元测验"><span class="nav-number">4.</span> <span class="nav-text"> 单元测验</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#编程作业"><span class="nav-number">5.</span> <span class="nav-text"> 编程作业</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目1-我爱c20分"><span class="nav-number">5.1.</span> <span class="nav-text"> 题目 1. 我爱 C++（20 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码"><span class="nav-number">5.1.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目2-来自系统的问候20分"><span class="nav-number">5.2.</span> <span class="nav-text"> 题目 2. 来自系统的问候（20 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-2"><span class="nav-number">5.2.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目3-乘法计算器20分"><span class="nav-number">5.3.</span> <span class="nav-text"> 题目 3. 乘法计算器（20 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-3"><span class="nav-number">5.3.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目4-单位换算20分"><span class="nav-number">5.4.</span> <span class="nav-text"> 题目 4. 单位换算（20 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-4"><span class="nav-number">5.4.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目5-平方根计算器20分"><span class="nav-number">5.5.</span> <span class="nav-text"> 题目 5. 平方根计算器（20 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-5"><span class="nav-number">5.5.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基础练习"><span class="nav-number">6.</span> <span class="nav-text"> 基础练习</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#中级练习"><span class="nav-number">7.</span> <span class="nav-text"> 中级练习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目1-计算公式的值对数10分"><span class="nav-number">7.1.</span> <span class="nav-text"> 题目 1. 计算公式的值 (对数)（10 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-6"><span class="nav-number">7.1.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目2-e的近似值10分"><span class="nav-number">7.2.</span> <span class="nav-text"> 题目 2. e 的近似值（10 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-7"><span class="nav-number">7.2.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目3-计算公式的值三角等10分"><span class="nav-number">7.3.</span> <span class="nav-text"> 题目 3. 计算公式的值（三角等）（10 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-8"><span class="nav-number">7.3.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目4-计算公式的值开方10分"><span class="nav-number">7.4.</span> <span class="nav-text"> 题目 4. 计算公式的值（开方）（10 分）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解题代码-9"><span class="nav-number">7.4.1.</span> <span class="nav-text"> 解题代码</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
