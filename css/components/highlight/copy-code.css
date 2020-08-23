@@ -1,1 +1,1 @@
-.highlight .copy-btn:focus,.highlight:hover .copy-btn{opacity:1}.copy-btn{color:var(--grey-7);cursor:pointer;line-height:1.6;opacity:0;padding:2px 6px;position:absolute;background:var(--grey-1);border:0;font-size:$font-size-smaller;right:0;top:0}
+.copy-btn{color:var(--grey-5);cursor:pointer;position:absolute;padding:2px 6px;right:2px;top:6px;font-size:$font-size-smaller}.copy-btn:hover{color:var(--grey-7)}
