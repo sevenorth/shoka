@@ -8,7 +8,7 @@
     <author>
       <name>Ruri Shimotsuki</name>
     </author>
-    <updated>2020-10-24T14:51:29.000Z</updated>
+    <updated>2020-10-29T08:09:18.000Z</updated>
     <category term="学习笔记" />
     <category term="医学" />
     <category term="编程" />
@@ -17,6 +17,145 @@
     <category term="YumeShoka" />
     <category term="優萌初華" />
     <category term="有夢書架" />
+    <entry>
+        <id>https://shoka.lostyu.me/computer-science/mse/itmd-534/lecture-6/</id>
+        <title>Lecture 6. Aesthetics in HCI</title>
+        <link rel="alternate" href="https://shoka.lostyu.me/computer-science/mse/itmd-534/lecture-6/"/>
+        <content type="html">&lt;h1 id=&#34;aesthetics-in-hci&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aesthetics-in-hci&#34;&gt;#&lt;/a&gt; Aesthetics in HCI&lt;/h1&gt;
+&lt;p&gt;人机交互中的美学&lt;/p&gt;
+&lt;p&gt;Traditional emphasis on usability is now giving way to include user experience as a measure of good UI design.&lt;br /&gt;
+ 传统上对可用性的强调正逐渐让位，包括用户体验在内，作为衡量良好 UI 设计的方法。&lt;/p&gt;
+&lt;h2 id=&#34;various-movements-in-art&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#various-movements-in-art&#34;&gt;#&lt;/a&gt; Various Movements in Art&lt;/h2&gt;
+&lt;p&gt;各种艺术运动&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Greek and Roman&lt;/td&gt;
+&lt;td&gt;希腊和罗马&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medieval&lt;/td&gt;
+&lt;td&gt;中世纪&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Renaissance&lt;/td&gt;
+&lt;td&gt;文艺复兴&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Baroque&lt;/td&gt;
+&lt;td&gt;巴洛克式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Neo Classical&lt;/td&gt;
+&lt;td&gt;新古典&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Realism&lt;/td&gt;
+&lt;td&gt;现实主义&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Impressionism&lt;/td&gt;
+&lt;td&gt;印象派&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cubism&lt;/td&gt;
+&lt;td&gt;立体主义&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Abstract Art&lt;/td&gt;
+&lt;td&gt;抽象艺术&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;golden-proportions&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#golden-proportions&#34;&gt;#&lt;/a&gt; Golden Proportions&lt;/h1&gt;
+&lt;p&gt;黄金比例&lt;/p&gt;
+&lt;p&gt;Golden proportions are found both in nature and in man-made structures&lt;br /&gt;
+ 在自然界和人造结构中都可以找到黄金比例&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Studies have shown that humans have a preference for Golden Proportions&lt;br /&gt;
+ 研究表明，人类偏爱黄金比例&lt;/li&gt;
+&lt;li&gt;Golden proportions consist of the golden ratio and are closely related to Fibonacci sequence&lt;br /&gt;
+ 黄金比例由黄金分割率组成，与斐波那契数列密切相关
+&lt;ul&gt;
+&lt;li&gt;The golden ratio is one where the ratio of the smaller segment to the larger segment is the same as the larger segment to the sum of both segments.&lt;br /&gt;
+ 黄金分割率是较小部分与较大部分之比，与较大部分与两个部分之和之比相同的比率。&lt;/li&gt;
+&lt;li&gt;The golden proportion is a visual representation of the golden number (Φ) which is approximately 1.618&lt;br /&gt;
+ 黄金比例是黄金分割数（Φ）的视觉表示，约为 1.618&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/11/03/S14kUx3MvL5TuHO.jpg&#34; alt=&#34;&#34; title=&#34;Courtesy: bypeople.com&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fibonacci-sequence&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fibonacci-sequence&#34;&gt;#&lt;/a&gt; Fibonacci Sequence&lt;/h2&gt;
+&lt;p&gt;斐波那契数列&lt;/p&gt;
+&lt;p&gt;The golden ratio is closely connected to Fibonacci sequence&lt;br /&gt;
+ 黄金比例与斐波那契数列紧密相关&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fibonacci sequence begins by definition with the numbers 0, 1 and then each successive number in the sequence is the sum of the previous two numbers&lt;br /&gt;
+ 斐波那契数列的定义是从数字 0、1 开始，然后序列中的每个连续数字都是前两个数字的和&lt;br /&gt;
+ &lt;code&gt;0,1,1,2,3,5,8,13,21,34,55.....&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If you take any number in the sequence and divide it by the previous number the result approximates Phi or the golden ratio&lt;br /&gt;
+ 如果将序列中的任何数字除以前一个数字，则结果近似为 Φ 或黄金比例&lt;br /&gt;
+ &lt;code&gt;13/8 = 1.625&lt;/code&gt;   &lt;code&gt;21/13 - 1.615&lt;/code&gt;   &lt;code&gt;34/21 - 1.619&lt;/code&gt;   &lt;code&gt;55/34 = 1.6176&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;This sequence is found all around us in nature&lt;br /&gt;
+ 在自然界中发现了这个序列&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;https://i.loli.net/2020/11/03/sGWNKhtoE3r5U4B.jpg&#34; alt=&#34;&#34; title=&#34;Courtesy: Flickr.com&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/11/03/ZQIU3uTdcFag6A8.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/11/03/491l3pMzdKZLYU2.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/11/03/my2UeGdPM5g7cjv.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/11/03/RfJdPyhAepOzT1q.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/11/03/KDiGv6k3zUmSWE1.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/11/03/cY4oLsjWgX2TKH8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;golden-ratio-and-the-rule-of-third&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#golden-ratio-and-the-rule-of-third&#34;&gt;#&lt;/a&gt; Golden Ratio and the rule of third&lt;/h2&gt;
+&lt;p&gt;黄金分割率与三分法则&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj05Q2lTM1NVNGxrMCZhbXA7YWJfY2hhbm5lbD1TZWVrZXI=&#34;&gt;Video: The Golden Ratio vs. The Rule of Thirds&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/9CiS3SU4lk0&#34; frameborder=&#34;0&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#example&#34;&gt;#&lt;/a&gt; Example&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/11/03/RaTQNoCEX673sLu.jpg&#34; alt=&#34;&#34; title=&#34;Courtesy: tympanus.net&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;MmDesign uses the principle of the golden rectangle for the dominant image on its site.&lt;br /&gt;
+MmDesign 在其网站的主要图像上使用金色矩形的原理。&lt;/p&gt;
+&lt;p&gt;Not only is the image striking, it has the perfect harmonic shape.&lt;br /&gt;
+ 图像不仅引人注目，而且具有完美的谐波形状。&lt;/p&gt;
+&lt;p&gt;The golden rectangle is not just for site design but can be used to create balanced parts throughout a site.&lt;br /&gt;
+ 黄金矩形不仅用于站点设计，还可以用于在整个站点中创建平衡零件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/11/03/RwDa8AJTzKgFPXs.jpg&#34; alt=&#34;&#34; title=&#34;Courtesy: webdesign.tutplus.com&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The screenshot above shows how the layoutlargely comprises previous client work.&lt;br /&gt;
+ 上面的屏幕截图显示了布局如何主要包括以前的客户端工作。&lt;/p&gt;
+&lt;p&gt;It also features a block of content about the agency itselfand a navigation bar in the center of the screen.&lt;br /&gt;
+ 它还具有关于代理机构本身的内容块以及屏幕中心的导航栏。&lt;/p&gt;
+&lt;p&gt;The contact button, as shown also uses the golden mean as a grid system to organize the layout in a unique way.&lt;br /&gt;
+ 如图所示，接触按钮还使用黄金分割作为网格系统，以独特的方式组织布局。&lt;/p&gt;
+&lt;h1 id=&#34;layout-design&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#layout-design&#34;&gt;#&lt;/a&gt; Layout Design&lt;/h1&gt;
+&lt;p&gt;版图设计&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1OOFRRZkUxcUtlRSZhbXA7YWJfY2hhbm5lbD1TYXRvcmlHcmFwaGljcw==&#34;&gt;Master LAYOUT &amp;amp; COMPOSITION Design - Why Layout Is SO IMPORTANT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/N8TQfE1qKeE&#34; frameborder=&#34;0&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;gestalt-theory&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gestalt-theory&#34;&gt;#&lt;/a&gt; Gestalt Theory&lt;/h1&gt;
+&lt;p&gt;格式塔理论&lt;/p&gt;
+&lt;p&gt;This is a theory of understanding form in its unified whole.&lt;br /&gt;
+ 这是一种理解理论，它是一个统一的整体。&lt;/p&gt;
+&lt;p&gt;Developed in the Berlin School of experimental psychology, it deals with the capability of human perception to generate forms out of seemingly unconnected lines and shapes.&lt;br /&gt;
+ 它是由柏林实验心理学学院开发的，旨在处理人类感知能力，以看似无关的线条和形状生成形式。&lt;/p&gt;
+&lt;p&gt;It supports the idea that the whole is more than the sum of its parts.&lt;br /&gt;
+ 它支持这样的想法，即整体不仅仅是其各个部分的总和。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Closure 关闭&lt;/li&gt;
+&lt;li&gt;Similarity 相似性&lt;/li&gt;
+&lt;li&gt;Good Continuation 良好的持续性&lt;/li&gt;
+&lt;li&gt;Proximity 邻近&lt;/li&gt;
+&lt;li&gt;Good Form 良好的形式&lt;/li&gt;
+&lt;li&gt;Object and background 对象和背景&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;closure&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#closure&#34;&gt;#&lt;/a&gt; Closure&lt;/h2&gt;
+&lt;p&gt;Closure is the key for an observer to decipher shapes and forms in a picture with various lines and shapes.&lt;/p&gt;
+&lt;p&gt;The human brain tends to fill up missing lines to build up a shape that is familiar to it.&lt;/p&gt;
+&lt;p&gt;In the figure below the invisible lines form a triangle.&lt;/p&gt;
+</content>
+        <category term="计算机科学" scheme="https://shoka.lostyu.me/categories/computer-science/" />
+        <category term="Master of Software Engineering" scheme="https://shoka.lostyu.me/categories/computer-science/mse/" />
+        <category term="ITMD 534. Human Computer Interaction" scheme="https://shoka.lostyu.me/categories/computer-science/mse/itmd-534/" />
+        <category term="人机交互" scheme="https://shoka.lostyu.me/tags/%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92/" />
+        <updated>2020-10-29T08:09:18.000Z</updated>
+    </entry>
     <entry>
         <id>https://shoka.lostyu.me/computer-science/mse/itmd-510/week-9/</id>
         <title>Week 9. Streams API</title>
@@ -1760,7 +1899,7 @@ pc 版和移动版可以使用同一个 URL 地址&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;webers-law&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#webers-law&#34;&gt;#&lt;/a&gt; Weber&#39;s law&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cua2hhbmFjYWRlbXkub3JnL3Rlc3QtcHJlcC9tY2F0L3Byb2Nlc3NpbmctdGhlLWVudmlyb25tZW50L3NlbnNvcnktcGVyY2VwdGlvbi92L3dlYmVycy1sYXctYW5kLXRocmVzaG9sZHM=&#34;&gt;Video: Weber&#39;s law and thresholds&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;media-container&#34;&gt;&lt;div class=&#34;player&#34; data-type=&#34;video&#34; data-src=&#39;[&#34;https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0&#34;]&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;media-container&#34;&gt;&lt;div class=&#34;player&#34; data-type=&#34;video&#34; data-src=&#39;[{&#34;name&#34;:&#34;Weber’s law and thresholds&#34;,&#34;url&#34;:&#34;https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0&#34;}]&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h2 id=&#34;vision&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vision&#34;&gt;#&lt;/a&gt; Vision&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Visual System&lt;br /&gt;
@@ -1883,6 +2022,9 @@ pc 版和移动版可以使用同一个 URL 地址&lt;/li&gt;
  是目标对象的宽度&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;h2 id=&#34;memory&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#memory&#34;&gt;#&lt;/a&gt; Memory&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1iU3ljZEl4LUM0OCZhbXA7YWJfY2hhbm5lbD1DcmFzaENvdXJzZQ==&#34;&gt;How We Make Memories: Crash Course Psychology #13&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/bSycdIx-C48&#34; frameborder=&#34;0&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="https://shoka.lostyu.me/categories/computer-science/" />
         <category term="Master of Software Engineering" scheme="https://shoka.lostyu.me/categories/computer-science/mse/" />
@@ -7091,102 +7233,5 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="Hexo" scheme="https://shoka.lostyu.me/tags/Hexo/" />
         <category term="教程" scheme="https://shoka.lostyu.me/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2020-08-13T12:56:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/dependents/</id>
-        <title>Step.1 依赖插件</title>
-        <link rel="alternate" href="https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/dependents/"/>
-        <content type="html">&lt;div class=&#34;note primary&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;请务必将 hexo-renderer-multi-markdown-it 升级到最新版，目前为 0.1.5&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Theme Shoka 依赖以下 Hexo 插件&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;插件名称&lt;/th&gt;
-&lt;th&gt;npm 地址&lt;/th&gt;
-&lt;th&gt;功能&lt;/th&gt;
-&lt;th&gt;依赖程度&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;hexo-renderer-multi-markdown-it&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1yZW5kZXJlci1tdWx0aS1tYXJrZG93bi1pdA==&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;md 文件渲染器，压缩 css/js/html&lt;/td&gt;
-&lt;td&gt;必需&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;hexo-autoprefixer&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1hdXRvcHJlZml4ZXI=&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;给生成的 css 文件们添加浏览器前缀&lt;/td&gt;
-&lt;td&gt;必需&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;hexo-algoliasearch&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1hbGdvbGlhc2VhcmNo&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;站内搜索功能&lt;/td&gt;
-&lt;td&gt;搜索按钮失灵&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;hexo-symbols-count-time&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1zeW1ib2xzLWNvdW50LXRpbWU=&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;文章或站点字数及阅读时间统计&lt;/td&gt;
-&lt;td&gt;统计没有&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;hexo-feed&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1mZWVk&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;生成 Feed 文件&lt;/td&gt;
-&lt;td&gt;Feed 文件没有&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;没有正确安装以上插件的话，本主题会报错 or 无法正确显示 or 部分功能失效。&lt;br /&gt;
- &lt;code&gt;hexo-renderer-multi-markdown-it&lt;/code&gt;  请注意升级到最新版&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;安装完以上插件后，修改站点 &lt;code&gt;_config.yml&lt;/code&gt;  文件，加入相关配置。&lt;/p&gt;
-&lt;h1 id=&#34;multi-markdown-it安装与配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#multi-markdown-it安装与配置&#34;&gt;#&lt;/a&gt; multi-markdown-it 安装与配置&lt;/h1&gt;
-&lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;安装前，记得务必卸载掉默认的 &lt;code&gt;hexo-renderer-marked&lt;/code&gt; ，以及别的 markdown 文件渲染器。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; un hexo-renderer-marked --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; remove hexo-renderer-marked&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安装&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i hexo-renderer-multi-markdown-it --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-renderer-multi-markdown-it&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果安装缓慢，或者失败&lt;br /&gt;
-如报错&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ERROR: Failed to download Chromium r515411&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt; Set &lt;span class=&#34;token string&#34;&gt;&#34;PUPPETEER_SKIP_CHROMIUM_DOWNLOAD&#34;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;env&lt;/span&gt; variable to skip download.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;因为有一步需要下载 puppeteer 里的 Chromium 内核，基于天朝内部网络现状，这一步能不能成功要靠科学和运气，所以为了避免安装失败，需要加上 &lt;code&gt;--ignore-scripts&lt;/code&gt;  跳过 Chromium 内核的下载。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i hexo-renderer-multi-markdown-it --save --ignore-scripts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-renderer-multi-markdown-it --ignore-scripts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;puppeteer 主要是用来渲染 mermaid 流程图，只要文章中不使用 mermaid 就没有任何问题，如果要使用 mermaid 建议还是想办法完全安装。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置&#34;&gt;#&lt;/a&gt; 配置&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;加入 &lt;code&gt;markdown&lt;/code&gt;  配置，用来渲染 md 文件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;markdown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 渲染器设置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 过滤 HTML 标签&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;xhtmlOut&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 使用 &#39;/&#39; 来闭合单标签 （比如 &amp;lt;br /&gt;）。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;breaks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 转换段落里的 &#39;\n&#39; 到 &amp;lt;br&gt;。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;linkify&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 将类似 URL 的文本自动转换为链接。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;typographer&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;quotes&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;“”‘’&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# markdown-it 插件设置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;toc&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;and&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;anchor&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 文章目录以及锚点应用的 class 名称，shoka 主题必须设置成这样&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;tocClassName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;toc&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;anchorClassName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;anchor&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;multimd&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;table&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;multiline&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;rowspan&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;headerless&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ./markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;furigana&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;fallbackParens&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;()&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ./markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;spoiler&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;你知道得太多了&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;加入 &lt;code&gt;minify&lt;/code&gt;  配置，压缩 css/js/html&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;minify&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 排除 hexo-feed 用到的模板文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/json.ejs&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/atom.ejs&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/rss.ejs&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;css&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/*.min.css&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;js&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;mangle&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token key atrule&#34;&gt;toplevel&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;compress&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/*.min.js&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示。&lt;br /&gt;
-找到 &lt;code&gt;highlight&lt;/code&gt;  和 &lt;code&gt;prismjs&lt;/code&gt; ，把 &lt;code&gt;enable&lt;/code&gt;  改成 &lt;code&gt;false&lt;/code&gt; 。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;highlight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;prismjs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;autoprefixer配置建议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#autoprefixer配置建议&#34;&gt;#&lt;/a&gt; autoprefixer 配置建议&lt;/h1&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;autoprefixer&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;*.min.css&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;缺少这个插件，首页卡片翻转效果在部分浏览器中无法正确显示。&lt;/p&gt;
-&lt;h1 id=&#34;algolia配置建议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#algolia配置建议&#34;&gt;#&lt;/a&gt; algolia 配置建议&lt;/h1&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;algolia&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;appId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#Your appId&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;apiKey&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#Your apiKey&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;adminApiKey&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#Your adminApiKey&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;chunkSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;indexName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#&#34;shoka&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;fields&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; title &lt;span class=&#34;token comment&#34;&gt;#必须配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; path &lt;span class=&#34;token comment&#34;&gt;#必须配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; categories &lt;span class=&#34;token comment&#34;&gt;#推荐配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; content&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;truncate&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; gallery&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; photos&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; tags&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;feed配置建议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#feed配置建议&#34;&gt;#&lt;/a&gt; feed 配置建议&lt;/h1&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;keywords&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#站点关键词，用 “,” 分隔&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;feed&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;limit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;order_by&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;-date&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;tag_dir&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;category_dir&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;rss&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;themes/shoka/layout/_alternate/rss.ejs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;rss.xml&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;atom&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;themes/shoka/layout/_alternate/atom.ejs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;atom.xml&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;jsonFeed&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;themes/shoka/layout/_alternate/json.ejs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;feed.json&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="计算机科学" scheme="https://shoka.lostyu.me/categories/computer-science/" />
-        <category term="二进制杂谈" scheme="https://shoka.lostyu.me/categories/computer-science/note/" />
-        <category term="Theme Shoka Documentation" scheme="https://shoka.lostyu.me/categories/computer-science/note/theme-shoka-doc/" />
-        <category term="Hexo" scheme="https://shoka.lostyu.me/tags/Hexo/" />
-        <category term="教程" scheme="https://shoka.lostyu.me/tags/%E6%95%99%E7%A8%8B/" />
-        <updated>2020-08-13T12:46:48.000Z</updated>
     </entry>
 </feed>
