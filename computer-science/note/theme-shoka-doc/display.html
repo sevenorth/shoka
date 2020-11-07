@@ -14,21 +14,6 @@ placeholder: &quot;1. 提问前请先仔细阅读本文档⚡\n2. 页面显示�
 <div class="note primary">
 <p><a href="/computer-science/note/theme-shoka-doc/">🚀快速开始</a> - <a href="/computer-science/note/theme-shoka-doc/dependents/">💌依赖插件</a> - <a href="/computer-science/note/theme-shoka-doc/config/">📌基本配置</a> - <a href="/computer-science/note/theme-shoka-doc/display/"><strong>🌈界面显示</strong></a> - <a href="/computer-science/note/theme-shoka-doc/special/">🦄特殊功能</a></p>
 </div>
-<h1 id="文章封面图"><a class="anchor" href="#文章封面图">#</a> 文章封面图</h1>
-<ul>
-<li>
-<p>如果文章的 Front Matter 设置了 <code>cover: image path</code> ，则封面会显示这张图片。</p>
-<figure class="highlight yml"><figcaption data-lang="YAML"><span>举个栗子</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">title</span><span class="token punctuation">:</span> Images</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">cover</span><span class="token punctuation">:</span> assets/wallpaper<span class="token punctuation">-</span>2572384.jpg</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment"># 或者写成</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token key atrule">cover</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//placehold.it/350x150.jpg</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">---</span></pre></td></tr></table></figure><p>这里 <code>cover</code>  的值可以是位于 <code>source</code>  目录里的图片文件，此处是 <code>&lt;root&gt;/source/assets/wallpaper-2572384.jpg</code>  文件，也可以是一个某网址。</p>
-</li>
-<li>
-<p>如果文章是一个 <code>gallery post</code> ，即 Front Matter 设置了 <code>photos</code> ，则会封面会显示设置的第一张图片。</p>
-<figure class="highlight yml"><figcaption data-lang="YAML"><span>举个栗子</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">title</span><span class="token punctuation">:</span> Gallery Post</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">photos</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">-</span> assets/wallpaper<span class="token punctuation">-</span>2572384.jpg</pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">-</span> assets/wallpaper<span class="token punctuation">-</span>2311325.jpg</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">-</span> assets/wallpaper<span class="token punctuation">-</span>878514.jpg</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">-</span> http<span class="token punctuation">:</span>//placehold.it/350x150.jpg</pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">---</span></pre></td></tr></table></figure><p>此时默认会显示第一个图片，即位于 <code>&lt;root&gt;/source/assets/</code>  目录里的 <code>wallpaper-2572384.jpg</code> 。</p>
-</li>
-<li>
-<p>如果以上设置均不存在，将显示一张随机图片。<br />
-图片取自 <code>&lt;root&gt;/themes/shoka/_images.yml</code>  中，使用渣浪图床。</p>
-</li>
-</ul>
 <h1 id="首页置顶文章"><a class="anchor" href="#首页置顶文章">#</a> 首页置顶文章</h1>
 <p>在文章的 Front Matter 设置 <code>sticky: true</code> ，则该文章将显示在首页最上方的 <code>置顶文章</code> 列。<br />
 多篇文章按照发布时间倒序排列，不分页。</p>
@@ -36,8 +21,8 @@ placeholder: &quot;1. 提问前请先仔细阅读本文档⚡\n2. 页面显示�
 <p>想要在首页显示分类翻转块，需要按照以下示例的方式，给需要显示的分类加上封面图。</p>
 <ol>
 <li>
-<p>首先，修改站点的 <code>_config.yml</code> <br />
- 找到 <code>category_map:</code> ，配置每个分类对应的英文映射，比如：</p>
+<p>首先，修改站点配置：<br />
+找到 <code>category_map:</code> ，配置每个分类对应的英文映射，比如：</p>
 <figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">category_map</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">计算机科学</span><span class="token punctuation">:</span> computer<span class="token punctuation">-</span>science</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">Java</span><span class="token punctuation">:</span> java</pre></td></tr><tr><td data-num="4"></td><td><pre>  <span class="token key atrule">C++</span><span class="token punctuation">:</span> cpp</pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">二进制杂谈</span><span class="token punctuation">:</span> note</pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token key atrule">计算机程序设计（C++）-西安交通大学</span><span class="token punctuation">:</span> course<span class="token punctuation">-</span><span class="token number">1</span></pre></td></tr><tr><td data-num="7"></td><td><pre>  <span class="token key atrule">零基础学Java语言-浙江大学-翁恺</span><span class="token punctuation">:</span> course<span class="token punctuation">-</span><span class="token number">1</span></pre></td></tr><tr><td data-num="8"></td><td><pre>  <span class="token key atrule">面向对象程序设计-Java语言-浙江大学-翁恺</span><span class="token punctuation">:</span> course<span class="token punctuation">-</span><span class="token number">2</span></pre></td></tr></table></figure><blockquote>
 <p>注意：hexo 会自动处理路径中的特殊字符，<span></span>~`!@#$%^&amp;*()-_+=<span></span>{}|\;:&quot;'&lt;&gt;,.? 以及空格，这些全部会被替换成 <code>-</code> <br />
  所以避免在设置中使用上述字符，否则可导致无法抓取到目录下的 <code>cover.jpg</code></p>
@@ -55,7 +40,7 @@ placeholder: &quot;1. 提问前请先仔细阅读本文档⚡\n2. 页面显示�
 </li>
 <li>
 <p>事实上，为了方便文章管理，这个分类下所有文章的 md 文件，我都会放在 <code>&lt;root&gt;/source/_posts/computer-science/java/course-1/</code>  这个目录下。</p>
-<p>且站点 <code>_config.yml</code>  里，永久链接设置如下</p>
+<p>且站点配置文件里，永久链接设置如下</p>
 <figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">permalink</span><span class="token punctuation">:</span> <span class="token punctuation">:</span>title/</pre></td></tr></table></figure><p><code>hexo g</code>  后，文章的 html 文件们将全部生成到 <code>&lt;root&gt;/public/computer-science/java/course-1/</code>  目录。<br />
 具体可以查看<a href="https://github.com/amehime/shoka">本博客的 github 仓库</a>。</p>
 </li>
@@ -68,6 +53,23 @@ placeholder: &quot;1. 提问前请先仔细阅读本文档⚡\n2. 页面显示�
 其实，不设置 <code>category_map</code>  也可以，只要在分类路径对应的文件夹下存在 <code>cover.jpg</code>  文件就行。<br />
 现在，这项功能与 <code>category_dir</code>  的配置也无关， <code>hexo g</code>  生成后，图片会自动被转移到 <code>category_dir</code>  的相关子目录下。</p>
 </blockquote>
+<h1 id="文章封面图"><a class="anchor" href="#文章封面图">#</a> 文章封面图</h1>
+<ul>
+<li>
+<p>如果文章的 Front Matter 设置了 <code>cover: image path</code> ，则封面会显示这张图片。</p>
+<figure class="highlight yml"><figcaption data-lang="YAML"><span>举个栗子</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">title</span><span class="token punctuation">:</span> Images</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">cover</span><span class="token punctuation">:</span> assets/wallpaper<span class="token punctuation">-</span>2572384.jpg</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment"># 或者写成</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token key atrule">cover</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//placehold.it/350x150.jpg</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">---</span></pre></td></tr></table></figure><p>这里 <code>cover</code>  的值可以是位于 <code>source</code>  目录里的图片文件，此处是 <code>&lt;root&gt;/source/assets/wallpaper-2572384.jpg</code>  文件，也可以是一个某网址。</p>
+</li>
+<li>
+<p>如果文章是一个 <code>gallery post</code> ，即 Front Matter 设置了 <code>photos</code> ，则会封面会显示设置的第一张图片。</p>
+<figure class="highlight yml"><figcaption data-lang="YAML"><span>举个栗子</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">title</span><span class="token punctuation">:</span> Gallery Post</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">photos</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">-</span> assets/wallpaper<span class="token punctuation">-</span>2572384.jpg</pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">-</span> assets/wallpaper<span class="token punctuation">-</span>2311325.jpg</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">-</span> assets/wallpaper<span class="token punctuation">-</span>878514.jpg</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">-</span> http<span class="token punctuation">:</span>//placehold.it/350x150.jpg</pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">---</span></pre></td></tr></table></figure><p>此时默认会显示第一个图片，即位于 <code>&lt;root&gt;/source/assets/</code>  目录里的 <code>wallpaper-2572384.jpg</code> 。</p>
+</li>
+<li>
+<p>如果站点配置中设置了 <code>post_asset_folder: true</code> ，那么上述本地图片路径应为 <code>&lt;root&gt;/source/_posts/文章同名的文件夹/assets/wallpaper-2572384.jpg</code> ，当然此时 <code>assets</code>  目录可以省掉。</p>
+</li>
+<li>
+<p>如果以上设置均不存在，将显示一张随机图片，<a href="/computer-science/note/theme-shoka-doc/config/#%E9%9A%8F%E6%9C%BA%E5%9B%BE%E5%BA%93">随机图库配置戳此</a>。</p>
+</li>
+</ul>
 <h1 id="图片展示与相册"><a class="anchor" href="#图片展示与相册">#</a> 图片展示与相册</h1>
 <p>在文章的 Front Matter 设置 <code>fancybox: false</code> ，可以关闭文章页的图片展示功能。<br />
 使用<a href="http://miromannino.github.io/Justified-Gallery/"> Justified-Gallery</a> 对 Gallery Post 内图案进行排列。</p>
@@ -90,15 +92,12 @@ placeholder: &quot;1. 提问前请先仔细阅读本文档⚡\n2. 页面显示�
 <img src="https://tva3.sinaimg.cn/large/6833939bly1giclil3m4ej20zk0m8tn8.jpg" alt="" /><br />
 <img src="https://tva3.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg" alt="" /><br />
 <img src="https://tva3.sinaimg.cn/large/6833939bly1gipetfk5zwj20zk0m8e81.jpg" alt="" /></p>
-<h1 id="底部widgets"><a class="anchor" href="#底部widgets">#</a> 底部 widgets</h1>
-<p>目前页面底部可以显示两个小部件，即 <code>随机文章</code> 和 <code>最近评论</code> 。<br />
-可以在主题 <code>_config.yml</code>  中配置开关。</p>
-<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">widgets</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">random_posts</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">recent_comments</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr></table></figure><h1 id="修改页面配色"><a class="anchor" href="#修改页面配色">#</a> 修改页面配色</h1>
-<p>自行查看 <code>themes/shoka/source/css/_colors.styl</code></p>
-<h1 id="修改404页面"><a class="anchor" href="#修改404页面">#</a> 修改 404 页面</h1>
-<p>找到 <code>themes/shoka/layout/page.njk</code>  的第 57 - 61 行。<br />
-59 行的内容可以任意修改。</p>
-<p>如果只是想修改图片的话，位于： <code>themes/shoka/source/images/404.png</code></p>
+<h1 id="自定义页面配色"><a class="anchor" href="#自定义页面配色">#</a> 自定义页面配色</h1>
+<p>自行查看 <code>themes/shoka/source/css/_colors.styl</code> 。</p>
+<p>然后，在 <code>&lt;root&gt;/source/_data/</code>  目录新建文件 <code>colors.styl</code> ，在此文件中添改样式。</p>
+<h1 id="自定义主题图片"><a class="anchor" href="#自定义主题图片">#</a> 自定义主题图片</h1>
+<p>如果想要修改主题的 <code>themes/shoka/source/images/</code>  目录内的某张图片，请在 <code>&lt;root&gt;/source/_data/</code>  目录新建目录 <code>images</code> ，并在这个文件夹中添加同名文件，部署时将自动覆盖主题内的默认图片。</p>
+<p>可以用此方法自定义头像、打赏二维码等图片。</p>
 <h1 id="自定义语言包"><a class="anchor" href="#自定义语言包">#</a> 自定义语言包</h1>
 <p>本功能参考 NexT，主要可以用来定义菜单等处显示的文字，且可以方便主题无脑覆盖升级。</p>
 <p>在 <code>&lt;root&gt;/source/_data/</code>  目录新建文件 <code>languages.yml</code> 。</p>
