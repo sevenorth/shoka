@@ -2629,16 +2629,6 @@ This is what makes it more challenging than safety.&lt;/p&gt;
         <updated>2022-03-11T08:51:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://shoka.lostyu.me/trading-view/price-action/part01/</id>
-        <title>趋势回调</title>
-        <link rel="alternate" href="https://shoka.lostyu.me/trading-view/price-action/part01/"/>
-        <content type="html"></content>
-        <category term="交易策略" scheme="https://shoka.lostyu.me/categories/trading-view/" />
-        <category term="价格行为" scheme="https://shoka.lostyu.me/categories/trading-view/price-action/" />
-        <category term="趋势判断" scheme="https://shoka.lostyu.me/tags/%E8%B6%8B%E5%8A%BF%E5%88%A4%E6%96%AD/" />
-        <updated>2022-03-10T06:39:11.000Z</updated>
-    </entry>
-    <entry>
         <id>https://shoka.lostyu.me/trading-view/price-action/chart-pattern/pullback/</id>
         <title>趋势回调</title>
         <link rel="alternate" href="https://shoka.lostyu.me/trading-view/price-action/chart-pattern/pullback/"/>
@@ -2675,10 +2665,169 @@ This is what makes it more challenging than safety.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;复杂回调&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复杂回调&#34;&gt;#&lt;/a&gt; 复杂回调&lt;/h1&gt;
 &lt;p&gt;市场中，多空双方意见一致时常形成简单回调；&lt;br /&gt;
-当多空意见不一致，则形成了复杂回调，震荡。&lt;/p&gt;
+当多空意见不一致，则形成了复杂回调，震荡整理。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/08/GCwM1AIBpPys5N7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如果回调后的走势对前面的趋势极值强势突破，则为趋势延续。&lt;br /&gt;
+如果在前面趋势极值的水平位出现了价格停顿，就可能是潜在交易区间。&lt;br /&gt;
+如果对前趋势及时突破无力，并且做了一次逆势的突破，那就是潜在的反转形态。&lt;/p&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/09/TBiQIn7tCLAK3Uo.png&#34; alt=&#34;&#34; title=&#34;趋势的延续&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://s2.loli.net/2022/05/09/9jPeBlXtW8CJdu1.png&#34; alt=&#34;&#34; title=&#34;交易区间形成&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://s2.loli.net/2022/05/09/ngVwOrxzpvMN3IK.png&#34; alt=&#34;&#34; title=&#34;潜在反转形态 &#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;两段式回调-abc调整&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#两段式回调-abc调整&#34;&gt;#&lt;/a&gt; 两段式回调 ABC 调整&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/Cj5ulURZFSpIqYf.png&#34; alt=&#34;&#34; title=&#34;例子1&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;一段急速上涨，出现两段式回调&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;两次回调末端是做多的位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但如果出现很多 K 线重叠形成了交易区间，则代表市场极度不确定，则不考虑入场做多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;两段式回调后的上涨，可以认为是前段急速上涨的延续&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但是很快就枯竭了，这是潜在的反转形态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/boucGex9st6qm3z.png&#34; alt=&#34;&#34; title=&#34;例子2&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;连续的两段式回调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/FTJZMfaytXAnIV8.png&#34; alt=&#34;&#34; title=&#34;例子3&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第二段回调可以看做是第一段回调的延续&lt;/li&gt;
+&lt;li&gt;如果能量很快枯竭，意味着形成了潜在反转的形态&lt;/li&gt;
+&lt;li&gt;在回调浪中，出现了潜在反转形态，反转方向和大趋势方向一致，则是非常好的入场时机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/aScnlyT7eBrmiPq.png&#34; alt=&#34;&#34; title=&#34;例子4&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;两段式回调形成了交易区间&lt;/li&gt;
+&lt;li&gt;在一段走势明确被反转之前，都应该默认它是延续的&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;三段式回调-楔形或通道&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三段式回调-楔形或通道&#34;&gt;#&lt;/a&gt; 三段式回调 楔形或通道&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;三段式的回调一般会形成楔形或通道&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/VQ8lEsH1LAaSjoq.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/WUra7m2bZcDEioG.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;楔形回调&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#楔形回调&#34;&gt;#&lt;/a&gt; 楔形回调&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/NtarikxCJegE4AW.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一段明显的下跌通道走势，然后进行了深幅的回调，三次回调推动，形成了三段式的楔形回调&lt;/li&gt;
+&lt;li&gt;深幅回调的原因：
+&lt;ol&gt;
+&lt;li&gt;需要回测通道起点&lt;/li&gt;
+&lt;li&gt;出现了对通道的过冲&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何交易？&lt;br /&gt;
+在市场走完之前，永远不知道到底在做那个结构；一个形态失败，意味着新的形态形成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/u9mhTSkifaIgPrN.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;大周期看整体走势&lt;/li&gt;
+&lt;li&gt;价格从急速上涨到窄幅通道到宽幅通道，是趋势动能在减弱的标志，可能面临深幅的回调&lt;/li&gt;
+&lt;li&gt;但大趋势的多头方向没有改变，现在价格接近了水平波段的支撑位，因此交易逻辑应偏向做多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/11/OQt5mn1JyK3vRNw.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小周期看细节走势&lt;/li&gt;
+&lt;li&gt;价格首先进行了急速的下跌运动，跌幅较大，接近了前面波段的水平支撑位，出现了明显的反弹，即下跌趋势的回调&lt;/li&gt;
+&lt;li&gt;回调走势结束后，出现了第二段急速下跌，但明显比第一段下跌弱&lt;/li&gt;
+&lt;li&gt;价格急速运动，常导致动能枯竭，急速下跌 - 急速回调 - 急速下跌更是如此
+&lt;ul&gt;
+&lt;li&gt;价格在下破小波段水平线时立即反弹，出现三根阳线，也是下跌动能枯竭的标志&lt;/li&gt;
+&lt;li&gt;此时的 MACD 或 RSI 肯定已经出现背离，也就是趋势动能的不足&lt;/li&gt;
+&lt;li&gt;提示这个多头趋势可能经过这两段式的回调，已经走完整理形态，将沿原趋势方向继续运动去测试前高的位置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;但是，多头趋势没有得到很好的延续
+&lt;ul&gt;
+&lt;li&gt;出现了三根重叠 K 线形成的交易区间&lt;/li&gt;
+&lt;li&gt;并出现了一个带长下影线的阴线，但可以理解为对低点的二次测试&lt;/li&gt;
+&lt;li&gt;后续再次出现很多重叠 K 线的缓慢上涨，提示多头很弱&lt;/li&gt;
+&lt;li&gt;第二段上涨再次被终结，当第二个强阴线出现时，多头应该止损，重新观察形态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;市场走出了第三段下跌，提示走的是楔形回调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;交易中经常会出现交易逻辑被市场走势否决的情况&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/11/39BYRHWhAJpl21j.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;两段式调整逻辑被市场否决后，重新画出楔形调整
+&lt;ul&gt;
+&lt;li&gt;如果第三段回调继续下破，也就意味着楔形的失败，但市场无法预测&lt;/li&gt;
+&lt;li&gt;等楔形走出来后再进行交易，而不去管前述的两段式调整产生的波动，可能更稳妥；旗形通道和收敛通道同理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;楔形的入场方式：
+&lt;ul&gt;
+&lt;li&gt;激进入场法：
+&lt;ul&gt;
+&lt;li&gt;通道线处挂单，左侧交易；&lt;/li&gt;
+&lt;li&gt;但需要触碰通道线成功上破，该楔形才算完全成立，注意设置止损；&lt;/li&gt;
+&lt;li&gt;通道线是前面两个低点的 K 线极值的连线，以极值连线以保证左侧交易的盈亏比&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;保守入场法：
+&lt;ul&gt;
+&lt;li&gt;突破趋势线做单&lt;/li&gt;
+&lt;li&gt;趋势线是前面高点的连线，但具有严重的多解性，会有较多假突破，且难以设置止损，因此最好不要突破趋势线直接入场&lt;/li&gt;
+&lt;li&gt;可以选择突破前面的小波段高点入场，更为保守，因为水平位的支撑阻力效果永远要比斜线要好&lt;/li&gt;
+&lt;li&gt;也可以选择一种突破回调突破的模式；如果价格突破趋势线后，进行了一两根 k 线短暂的横向或小幅的下跌的回调，当价格再次突破这根 k 线高点的时候入场。价格突破，短暂的回调，继续原突破方向运行，提高了突破的成功率；止损可以设置在回调的小波段点下面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;旗形回调&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#旗形回调&#34;&gt;#&lt;/a&gt; 旗形回调&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一段急速的上涨，然后形成了一段旗形回调&lt;/li&gt;
+&lt;li&gt;回调被突破后，再次延续了前面的上涨趋势&lt;/li&gt;
+&lt;li&gt;通道和交易区间的区分：
+&lt;ul&gt;
+&lt;li&gt;通道大周期上由重叠 K 线构成，但有方向性&lt;/li&gt;
+&lt;li&gt;交易区间由重叠 K 线构成，但没有明显的运动方向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/ISiAgVrwn5YWzCm.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/QzEgkltiTIo3O4u.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;旗形通道很常见，但实际操盘中可能存在很多假突破，导致交易不顺&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/oTRZQvjX7SeC1Iw.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/QuaYIlyiBoTDznK.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三角收敛形态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三角收敛形态&#34;&gt;#&lt;/a&gt; 三角收敛形态&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;市场中非常常见&lt;/li&gt;
+&lt;li&gt;缺点：
+&lt;ul&gt;
+&lt;li&gt;划线时有多解性，是用实体相连还是影线相连，结果都不一样，很难找到准确的突破点&lt;/li&gt;
+&lt;li&gt;形态很好时，也有可能出现假突破，交易不顺畅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;优点是有效性比较高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/Ta6fKmHGxeod9k7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;箱体形态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#箱体形态&#34;&gt;#&lt;/a&gt; 箱体形态&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;价格上涨到前面的波段点出现停顿，形成箱体形态，回调整理&lt;/li&gt;
+&lt;li&gt;这是一个交易区间，代表方向的不确定性，上下概率各 50%
+&lt;ol&gt;
+&lt;li&gt;急速上涨后出现箱体整理，可能是中继形态，后续有上涨可能&lt;/li&gt;
+&lt;li&gt;急速上涨到达前面的波段点出现停顿，也有可能是动能耗尽的标志，是末端整理形态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/05/10/mkqJPMr48BWHNCg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="交易策略" scheme="https://shoka.lostyu.me/categories/trading-view/" />
         <category term="价格行为" scheme="https://shoka.lostyu.me/categories/trading-view/price-action/" />
@@ -2938,5 +3087,178 @@ DataFrame 是广义上的数组或特殊的 dict。&lt;/li&gt;
         <category term="数据挖掘" scheme="https://shoka.lostyu.me/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/" />
         <category term="机器学习" scheme="https://shoka.lostyu.me/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-03-03T14:03:03.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://shoka.lostyu.me/computer-science/mse/itmd-522/mid-term/</id>
+        <title>Midterm Review</title>
+        <link rel="alternate" href="https://shoka.lostyu.me/computer-science/mse/itmd-522/mid-term/"/>
+        <content type="html">&lt;h1 id=&#34;data-and-data-types&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#data-and-data-types&#34;&gt;#&lt;/a&gt; Data and Data Types&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Attribute (ordimensions, features, variables): a data field, representing a characteristic or feature of a data object.&lt;br /&gt;
+ 属性 (或维度、特征、变量)：数据字段，表示数据对象的特征或特征。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;E.g., customer_ID, name, address&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Types&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#qualitative-categoricalnominal-%E5%AE%9A%E6%80%A7%E6%A0%87%E7%A7%B0%E5%9E%8B&#34;&gt;Categorical&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Nominal 标称型变量&lt;/li&gt;
+&lt;li&gt;Binary 二元的&lt;/li&gt;
+&lt;li&gt;Ordinal 有序的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#quantitative-numerical-%E5%AE%9A%E9%87%8F%E6%95%B0%E5%80%BC%E5%9E%8B&#34;&gt;Numerical&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Interval-scaled or Ratio-scaled 间隔标度或比率标度&lt;/li&gt;
+&lt;li&gt;Discrete or continuous 离散和连续&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zMi5sb2xpLm5ldC8yMDIyLzAzLzA0L0ZnOGFyQ1NaUE9lcEp6RC5wbmc=&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一旦有了数据，则可能需要执行数据预处理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;data-preprocessing&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#data-preprocessing&#34;&gt;#&lt;/a&gt; Data Preprocessing&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Deal with Missing values 处理缺失值
+&lt;ul&gt;
+&lt;li&gt;What are the possible solutions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#missing-values-%E7%BC%BA%E5%A4%B1%E5%80%BC&#34;&gt;Missing Values&lt;/a&gt;&lt;br /&gt;
+ 如果是数值型变量，则求解缺失数据。&lt;br /&gt;
+如果是标称型变量，则填写缺失数据。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;Reduce variance for a numerical variable: &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#binning&#34;&gt;binning&lt;/a&gt;&lt;br /&gt;
+ 减少数值变量的方差&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;computer-science/mse/itmd-522/lecture-1/#correlation-analysis-%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90&#34;&gt;Correlation analysis&lt;/a&gt;: for different variables&lt;br /&gt;
+ 相关分析&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#data-transformation-%E6%95%B0%E6%8D%AE%E5%8F%98%E6%8D%A2&#34;&gt;Data Normalization&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#min-max-normalization-%E6%9E%81%E5%B0%8F%E6%9E%81%E5%A4%A7%E5%BD%92%E4%B8%80%E5%8C%96&#34;&gt;Min-max&lt;/a&gt;, &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#z-score-normalization-z%E5%88%86%E5%BD%92%E4%B8%80%E5%8C%96&#34;&gt;z-score&lt;/a&gt;, &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#decimal-scaling-for-normalization-%E5%8D%81%E8%BF%9B%E5%88%B6%E7%BC%A9%E6%94%BE%E5%BD%92%E4%B8%80%E5%8C%96&#34;&gt;decimal scaling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data Transformation: numerical &amp;lt;--&amp;gt; nominal &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-1/#discretization-%E7%A6%BB%E6%95%A3%E5%8C%96&#34;&gt;Discretization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Feature &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-8/#feature-selection-%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9-2&#34;&gt;Selection&lt;/a&gt; and &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-8/#feature-reduction-%E7%89%B9%E5%BE%81%E7%BA%A6%E7%AE%80&#34;&gt;Reduction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;computer-science/mse/itmd-522/lecture-8/#two-models-of-feature-selection&#34;&gt;Wrapper, Filter Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-8/#principal-component-analysis-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90&#34;&gt;PCA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-8/#anomalyoutlier-detection-%E5%BC%82%E5%B8%B8%E7%A6%BB%E7%BE%A4%E5%80%BC%E6%A3%80%E6%B5%8B&#34;&gt;Outlier Detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;supervised-vs-unsupervised-learning&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supervised-vs-unsupervised-learning&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-2/#supervised-vs-unsupervised-learning-%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E5%92%8C%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0&#34;&gt;Supervised vs. Unsupervised Learning&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;supervised-learning&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supervised-learning&#34;&gt;#&lt;/a&gt; Supervised Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;infer a (predictive) function from data associated with pre-defined targets/classes/labels&lt;br /&gt;
+ 从与预定义目标 / 类别 / 标签相关的数据推断（预测）函数&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example&lt;/strong&gt;: group objects by predefined labels&lt;br /&gt;
+ 示例：按预定义标签对对象进行分组&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Learn a model from labelled data (with multiple features) for future  predictions&lt;br /&gt;
+ 目标：从标记数据 (具有多个特征) 中学习模型，以用于未来的预测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outcomes&lt;/strong&gt;: We know outcomes: the predefined labels&lt;br /&gt;
+ 结果：我们知道结果：预定义的标签&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt;: error/accuracy, and other more metrics&lt;br /&gt;
+ 评估：错误 / 准确性和其他更多指标&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Mining Task&lt;/strong&gt;: Classification&lt;br /&gt;
+ 数据挖掘任务：分类&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unsupervised-learning&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unsupervised-learning&#34;&gt;#&lt;/a&gt; Unsupervised Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;discover or describe underlying structure from unlabelled data&lt;br /&gt;
+ 从未贴标签的数据中发现或描述底层结构&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example&lt;/strong&gt;: group objects by multiple features&lt;br /&gt;
+ 示例：按多个特征对对象进行分组&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Learn the structure from unlabelled data (with multiple features)  Outcomes: We do not know the outcomes&lt;br /&gt;
+ 目标：从未标记数据（具有多个特征）中学习结构结果：我们不知道结果&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt;: No clear performance or evaluation methods&lt;br /&gt;
+ 评估：没有明确的绩效或评估方法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Mining Task&lt;/strong&gt;: Clustering&lt;br /&gt;
+ 数据挖掘任务：聚类&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;classification&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#classification&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-2/#classification&#34;&gt;Classification&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-2/#classification-task-%E4%BB%BB%E5%8A%A1&#34;&gt;Classification Task&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-2/#standard-classification-process-%E6%A0%87%E5%87%86%E5%88%86%E7%B1%BB%E6%B5%81%E7%A8%8B&#34;&gt;Standard Classification Process&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data Splits for &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-2/#evaluation-%E8%AF%84%E4%BC%B0&#34;&gt;Evaluations&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-2/#hold-out-evaluation&#34;&gt;Hold-out Evaluation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/itmd-522/lecture-2/#n-folds-cross-evaluation-n%E5%80%8D%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81&#34;&gt;N-folds Cross Evaluation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-3/#k-nearest-neighbor-knn-classifier-k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95&#34;&gt;KNN Classifier&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-3/#na%C3%AFve-bayes-classifier-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF&#34;&gt;Naïve Bayes Classifier&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-4/#decision-trees-%E5%86%B3%E7%AD%96%E6%A0%91&#34;&gt;Decision Trees&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-4/#support-vector-machines-svm-%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA&#34;&gt;SVM&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-4/#logistic-regression-logistic%E5%9B%9E%E5%BD%92&#34;&gt;Logistic Regression&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-5/#neural-networks&#34;&gt;Neural Networks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-5/#ensembles-of-classifiers-%E5%88%86%E7%B1%BB%E5%99%A8%E9%9B%86%E5%90%88&#34;&gt;Ensemble Classifier&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-4/#multi-class-classification-by-binary-classification-%E4%BA%8C%E5%85%83%E5%88%86%E7%B1%BB%E6%B3%95%E7%9A%84%E5%A4%9A%E7%B1%BB%E5%88%86%E7%B1%BB%E6%B3%95&#34;&gt;Binary&lt;/a&gt;, Multi-Class and &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-5/#multi-label-classifications&#34;&gt;Multi-Label&lt;/a&gt; classifications&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-3/#imbalance-issue-%E4%B8%8D%E5%B9%B3%E8%A1%A1%E9%97%AE%E9%A2%98&#34;&gt;Imbalance Issues&lt;/a&gt; and solutions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Classification Evaluations &amp;amp; &lt;a href=&#34;/computer-science/mse/itmd-522/lecture-3/#classification-evaluation-metrics-%E5%88%86%E7%B1%BB%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87&#34;&gt;Metrics&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;clustering-tasksapproaches&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clustering-tasksapproaches&#34;&gt;#&lt;/a&gt; Clustering Tasks/Approaches&lt;/h1&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-6/#partitional-clustering-%E5%88%86%E5%8C%BA%E8%81%9A%E7%B1%BB&#34;&gt;Partitional Clustering&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;just group objects to minimize intra-cluster distances and maximize inter-cluster distances, e.g., K-Means&lt;br /&gt;
+ 只需将对象分组以最小化簇内距离并最大化簇间距离，例如 K - 均值&lt;/dd&gt;
+&lt;dt&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-6/#hierarchical-algorithms-%E5%88%86%E5%B1%82%E7%AE%97%E6%B3%95&#34;&gt;Hierarchical Clustering&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;a clustering process in order to discover the hierarchical structure, like a hierarchical tree  Example: categories and subcategories; taxonomies&lt;br /&gt;
+ 为了发现层次结构而进行的聚类过程，如层次树示例：类别和子类别；分类法&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h1 id=&#34;association-rules&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#association-rules&#34;&gt;#&lt;/a&gt; Association Rules&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-7/#what-is-association-mining-%E4%BB%80%E4%B9%88%E6%98%AF%E5%85%B3%E8%81%94%E6%8C%96%E6%8E%98&#34;&gt;What Is Association Mining?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://shoka.lostyu.me/computer-science/mse/itmd-522/lecture-7/#support-and-confidence-%E6%94%AF%E6%8C%81%E5%BA%A6%E5%92%8C%E7%BD%AE%E4%BF%A1%E5%BA%A6&#34;&gt;Support and Confidence&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-7/#steps-in-association-rule-discovery-%E5%85%B3%E8%81%94%E8%A7%84%E5%88%99%E5%8F%91%E7%8E%B0%E7%9A%84%E6%AD%A5%E9%AA%A4&#34;&gt;Steps in Association Rule Discovery&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/mse/itmd-522/lecture-7/#apriori-algorithm-an-example&#34;&gt;Apriori Algorithm - An Example&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="计算机科学" scheme="https://shoka.lostyu.me/categories/computer-science/" />
+        <category term="Master of Software Engineering" scheme="https://shoka.lostyu.me/categories/computer-science/mse/" />
+        <category term="ITMD 522. Data Mining and Machine Learning" scheme="https://shoka.lostyu.me/categories/computer-science/mse/itmd-522/" />
+        <category term="数据挖掘" scheme="https://shoka.lostyu.me/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/" />
+        <category term="机器学习" scheme="https://shoka.lostyu.me/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" />
+        <updated>2022-03-03T08:12:36.000Z</updated>
     </entry>
 </feed>
